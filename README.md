@@ -1,15 +1,9 @@
 # ASPIRE.jl
 
-This code base is using the Julia Language and [DrWatson](https://juliadynamics.github.io/DrWatson.jl/stable/)
-to make a reproducible scientific project named
-> ASPIRE.jl
-
-It is authored by Rafael Orozco.
 
 To (locally) reproduce this project, do the following:
 
-0. Download this code base. Notice that raw data are typically not included in the
-   git-history and may need to be downloaded independently.
+0. Download this code base. Notice that raw data needs to be downloaded independently.
 1. Open a Julia console and do:
    ```
    julia> using Pkg
@@ -18,8 +12,6 @@ To (locally) reproduce this project, do the following:
    julia> Pkg.instantiate()
    ```
 
-This will install all necessary packages for you to be able to run the scripts and
-everything should work out of the box, including correctly finding local paths.
-
+This will install all necessary packages for you to be able to run the scripts.
 
 To download the brain prior samples: https://www.dropbox.com/scl/fi/t7523css1jk6ylblpq99l/v_train.jld2?rlkey=d0dpx3s2lgdkmzqacurx785x8&dl=0
