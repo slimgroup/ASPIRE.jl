@@ -20,3 +20,6 @@ To (locally) reproduce this project, do the following:
 
 This will install all necessary packages for you to be able to run the scripts and
 everything should work out of the box, including correctly finding local paths.
+
+
+To download the brain prior samples: https://www.dropbox.com/scl/fi/t7523css1jk6ylblpq99l/v_train.jld2?rlkey=d0dpx3s2lgdkmzqacurx785x8&dl=0
