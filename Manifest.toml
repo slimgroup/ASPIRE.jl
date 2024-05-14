@@ -2,7 +2,7 @@
 
 julia_version = "1.8.5"
 manifest_format = "2.0"
-project_hash = "bb372a2cc086794c6586dc7e989856bb7286860f"
+project_hash = "ef588967684d707fc1e03cb9b73dd9b8bef25d04"
 
 [[deps.AbstractFFTs]]
 deps = ["ChainRulesCore", "LinearAlgebra", "Test"]
@@ -193,6 +193,18 @@ version = "0.1.2"
 [[deps.DelimitedFiles]]
 deps = ["Mmap"]
 uuid = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+
+[[deps.Dierckx]]
+deps = ["Dierckx_jll"]
+git-tree-sha1 = "d1ea9f433781bb6ff504f7d3cb70c4782c504a3a"
+uuid = "39dd38d3-220a-591b-8e3c-4c3a8c710a94"
+version = "0.5.3"
+
+[[deps.Dierckx_jll]]
+deps = ["Artifacts", "CompilerSupportLibraries_jll", "JLLWrappers", "Libdl", "Pkg"]
+git-tree-sha1 = "6596b96fe1caff3db36415eeb6e9d3b50bfe40ee"
+uuid = "cd4c43a9-7502-52ba-aa6d-59fb2a88580b"
+version = "0.1.0+0"
 
 [[deps.DiffResults]]
 deps = ["StaticArraysCore"]
@@ -405,6 +417,12 @@ deps = ["Dates", "Mmap", "Parsers", "Unicode"]
 git-tree-sha1 = "31e996f0a15c7b280ba9f76636b3ff9e2ae58c9a"
 uuid = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 version = "0.21.4"
+
+[[deps.JUDI]]
+deps = ["ChainRulesCore", "DSP", "Dierckx", "Distributed", "FFTW", "JOLI", "LinearAlgebra", "OrderedCollections", "PyCall", "Random", "Requires", "SegyIO"]
+git-tree-sha1 = "b1fb9adb367e59de3eafef189f25ed399bb60a2c"
+uuid = "f3b833dc-6b2e-5b9c-b940-873ed6319979"
+version = "3.4.1"
 
 [[deps.JuliaVariables]]
 deps = ["MLStyle", "NameResolution"]
@@ -723,6 +741,12 @@ deps = ["Dates"]
 git-tree-sha1 = "3bac05bc7e74a75fd9cba4295cde4045d9fe2386"
 uuid = "6c6a2e73-6563-6170-7368-637461726353"
 version = "1.2.1"
+
+[[deps.SegyIO]]
+deps = ["Distributed", "Printf", "Test"]
+git-tree-sha1 = "0fc24db28695a80aa59c179372b11165d371188a"
+uuid = "157a0f19-4d44-4de5-a0d0-07e2f0ac4dfa"
+version = "0.8.5"
 
 [[deps.Serialization]]
 uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
